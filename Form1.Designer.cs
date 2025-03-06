@@ -37,7 +37,7 @@
             button4 = new Button();
             button5 = new Button();
             button6 = new Button();
-            textBox1 = new TextBox();
+            Output = new TextBox();
             button7 = new Button();
             button8 = new Button();
             button9 = new Button();
@@ -133,14 +133,14 @@
             button6.UseVisualStyleBackColor = true;
             button6.Click += button6_Click;
             // 
-            // textBox1
+            // Output
             // 
-            textBox1.Location = new Point(226, 80);
-            textBox1.Name = "textBox1";
-            textBox1.ReadOnly = true;
-            textBox1.Size = new Size(193, 23);
-            textBox1.TabIndex = 9;
-            textBox1.TextChanged += textBox1_TextChanged;
+            Output.Location = new Point(226, 80);
+            Output.Name = "Output";
+            Output.ReadOnly = true;
+            Output.Size = new Size(193, 23);
+            Output.TabIndex = 9;
+            Output.TextChanged += textBox1_TextChanged;
             // 
             // button7
             // 
@@ -180,7 +180,7 @@
             Controls.Add(button9);
             Controls.Add(button8);
             Controls.Add(button7);
-            Controls.Add(textBox1);
+            Controls.Add(Output);
             Controls.Add(button6);
             Controls.Add(button5);
             Controls.Add(button4);
@@ -207,7 +207,7 @@
         private Button button4;
         private Button button5;
         private Button button6;
-        private TextBox textBox1;
+        private TextBox Output;
         private Button button7;
         private Button button8;
         private Button button9;
